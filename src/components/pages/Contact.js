@@ -1,10 +1,10 @@
 import React from "react";
-import resume from "../../images/resume-pic.png";
+import resume from "../public/Images/resume.jpg";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Resume from '../../images/ChristopherBanksWebDev.jpg'
+import Resume from '../public/Images/resume.jpg'
 
 function Contact() {
   return (
@@ -21,7 +21,7 @@ function Contact() {
             <Card.Img variant="top" src={resume} />
             <Card.Body>
               <Card.Title>My Resume</Card.Title>
-              <a href={Resume} download="Resume" class="btn btn-outline-primary">Download PDF</a>
+              <a href={Resume} download="Resume" class="btn btn-outline-primary">Download jpg</a>
             </Card.Body>
           </Card>
         </Col>
@@ -29,13 +29,13 @@ function Contact() {
         <Col class="col-7">
           <Card class="homeCardBody p-2">
             <h5 class="cursive-font highlightText">Email</h5>
-            <p>banksc7669@gmail.com</p>
+            <p>richardwalter515@gmail.com</p>
             <h5 class="cursive-font highlightText">Phone</h5>
-            <p>(919) 724-3713</p>
+            <p>(336) 264-4558</p>
             <h5 class="cursive-font highlightText">Professional Networks</h5>
             <div>
-              <a href="https://www.linkedin.com/in/christopher-banks-bb500257/" target="_blank" class="fa fa-linkedin "></a> 
-              <a href="https://github.com/banksc7669" target="_blank" class="fa fa-github"></a> 
+              <a href="https://www.linkedin.com/in/richard-walter-0bb141121/" target="_blank" class="fa fa-linkedin "></a> 
+              <a href="https://github.com/richardwalter515" target="_blank" class="fa fa-github"></a> 
             </div>
           </Card>
         </Col>

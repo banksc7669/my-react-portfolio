@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import noteTaker from '../../images/noteTaker.png';
-import gameGuide from '../../images/gameGuide.jpg';
-import expressHandlebarsApp from '../../images/expressHandlebars.jpg';
+import noteTaker from '../public/Images/noteTaker.png';
+import gameGuide from '../public/Images/gameGuide.jpg';
+import expressHandlebarsApp from '../public/Images/expressHandlebars.jpg'
 
 function Portfolio() {
     return (
@@ -51,15 +51,15 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <Card style={{ width: '20rem', height: '100%' }}>
-                            <Card.Img variant="top" src={expressHandlebarsApp} width="250" height="170" />
+                            <Card.Img variant="top" src={expressHandlebars} width="250" height="170" />
                             <Card.Body>
                                 <Card.Title id="highlightBlue">Eat DA Burger</Card.Title>
                                 <Card.Text>
-                                    As a developer I want to generate a webpage that allows you to order, add, delete, and devour burgers. 
+                                    As a developer I want to generate a webpage that allows you to order, add, delete, and devour burgers.
                                     App utilizes handlebars and models.
 
-                                    This assignment allow me to create a web base burger logger with MySQL, Node, Express, 
-                                    Handlebars and a homemade ORM (yum!). The goal was to follow the MVC design pattern; 
+                                    This assignment allow me to create a web base burger logger with MySQL, Node, Express,
+                                    Handlebars and a homemade ORM (yum!). The goal was to follow the MVC design pattern;
                                     use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
                 </Card.Text>
                                 <br></br>
