@@ -13,8 +13,8 @@ function App() {
         <Nav />
         <Route exact path="/" component={About} />
         <Route exact path="/interests" component={Interests} />
-        <Route path="/resume" component={Contact} />
-        <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/portfolio" component={Portfolio} />
       </div>
     </Router>
   );

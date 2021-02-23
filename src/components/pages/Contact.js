@@ -29,13 +29,13 @@ function Contact() {
         <Col class="col-7">
           <Card class="homeCardBody p-2">
             <h5 class="cursive-font highlightText">Email</h5>
-            <p>richardwalter515@gmail.com</p>
+            <p>banksc7669@gmail.com</p>
             <h5 class="cursive-font highlightText">Phone</h5>
-            <p>(336) 264-4558</p>
+            <p>(919) 724-3713</p>
             <h5 class="cursive-font highlightText">Professional Networks</h5>
             <div>
-              <a href="https://www.linkedin.com/in/richard-walter-0bb141121/" target="_blank" class="fa fa-linkedin "></a> 
-              <a href="https://github.com/richardwalter515" target="_blank" class="fa fa-github"></a> 
+              <a href="https://www.linkedin.com/in/christopher-banks-bb500257/" target="_blank" class="fa fa-linkedin "></a> 
+              <a href="https://github.com/banksc7669/" target="_blank" class="fa fa-github"></a> 
             </div>
           </Card>
         </Col>

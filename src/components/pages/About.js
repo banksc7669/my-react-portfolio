@@ -13,7 +13,7 @@ function About() {
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h2 class="card-title cursive-font"> - Full Stack Developer</h2>
+              <h2 class="card-title cursive-font"> ##Full Stack Developer</h2>
               <hr></hr>
               <p class="card-text">    
                     My experience in full stack development allows me to assist with all
