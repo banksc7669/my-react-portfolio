@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import noteTaker from '../public/Images/noteTaker.png';
-import gameGuide from '../public/Images/gameGuide.jpg';
-import expressHandlebarsApp from '../public/Images/expressHandlebars.jpg'
+import noteTaker from '../../Images/noteTaker.png';
+import gameGuide from '../../Images/gameGuide.jpg';
+import burger from '../../Images/burger.jpg'
 
 function Portfolio() {
     return (
@@ -51,7 +51,7 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <Card style={{ width: '20rem', height: '100%' }}>
-                            <Card.Img variant="top" src={expressHandlebars} width="250" height="170" />
+                            <Card.Img variant="top" src={burger} width="250" height="170" />
                             <Card.Body>
                                 <Card.Title id="highlightBlue">Eat DA Burger</Card.Title>
                                 <Card.Text>

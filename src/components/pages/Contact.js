@@ -1,10 +1,10 @@
 import React from "react";
-import resume from "../public/Images/resume.jpg";
+import resume from "../../Images/resume.jpg";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Resume from '../public/Images/resume.jpg'
+import Resume from '../../Images/resume.jpg'
 
 function Contact() {
   return (
